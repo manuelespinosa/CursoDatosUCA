@@ -19,7 +19,5 @@ plt.title('Histograma de duración de Canciones')
 plt.xlabel('Duración (segundos)')
 plt.ylabel('Frecuencia')
 plt.grid(True)
-plt.show()  # Esto abrirá una ventana con el gráfico en PyCharm
-
-# Si quieres guardar el gráfico como imagen para el repositorio
 plt.savefig('hist_duracion.png')
+plt.show()
